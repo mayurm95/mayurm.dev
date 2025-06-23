@@ -26,20 +26,23 @@ export default function Home() {
     return (
         <main>
 
-            <section className="p-[2rem] flex max-md:flex-col min-w-full h-full" id="home">
+            <section className="p-[2rem] gap-[5rem] flex max-md:flex-col min-w-full h-full" id="home">
 
-                <div className="flex font-bold w-[55%] h-[50%]  flex-col">
-                    <div className="animate-pulse max-sm:text-[2rem] md:text-[3rem] lg:text-[3rem] pl-[5rem] m-[0px]">
+                <div className="flex font-bold max-md:w-full lg:w-[50%] h-[50%]  flex-col">
+                    <div className="animate-pulse max-sm:text-[2rem] max-md:text-[3rem] min-md:text-[3rem] min-lg:text-[3rem] max-sm:pl-[1rem] pl-[5rem] m-[0px]">
                         Hi,<br />
                         I&apos;m <span className="text-[#cf1b1b]">Mayur</span><br />
 
                     </div>
-                    <span className="max-sm:text-[2rem] md:text-[2rem] lg:text-[3rem]  pl-[5rem] m-[0px]" ref={el} />
+                    <span className="max-sm:text-[2rem] min-md:text-[3rem] max-md:text-[3rem] min-lg:text-[3rem]  max-sm:pl-[1rem] pl-[5rem] m-[0px]" ref={el} />
 
-                    <Button className="mt-[2rem] w-[100px] ml-[5rem]" onClick={() => { }}>Contact</Button>
+                    <div className="max-sm:pl-[1rem] pl-[5rem]">
+
+                    <Button className="mt-[1rem] w-[100px]  " onClick={() => { }}>Contact</Button>
+                    </div>
 
                 </div>
-                <div className="flex font-bold ml-[20rem] flex-col">
+                <div className="flex font-bold max-md:w-full  flex-col">
                     <div className="rounded-[100%]">
                         <Image
                             className="object-cover sm:w-full md:w-[50vw] mask-b-from-50% mask-b-to-90%"
