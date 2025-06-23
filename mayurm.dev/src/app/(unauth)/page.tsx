@@ -1,6 +1,5 @@
 "use client";
 
-import Particle from "@/component/Particle";
 import Button from "@/component/ui/Button";
 import Image from "next/image";
 import React, { useEffect, useRef } from "react";

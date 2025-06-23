@@ -2,10 +2,7 @@
 
 import React from 'react';
 import SmallLogo from './icon/SmallLogo';
-import Button from './ui/Button';
-import { WiMoonAltThirdQuarter } from "react-icons/wi";
 import Link from 'next/link';
-import Image from 'next/image';
 import MenuButton from './ui/MenuButton';
 
 export const Header = () => {
