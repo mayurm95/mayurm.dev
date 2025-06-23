@@ -31,7 +31,7 @@ export default function Home() {
                 <div className="flex font-bold w-[55%] h-[50%]  flex-col">
                     <div className="animate-pulse max-sm:text-[2rem] md:text-[3rem] lg:text-[3rem] pl-[5rem] m-[0px]">
                         Hi,<br />
-                        I'm <span className="text-[#cf1b1b]">Mayur</span><br />
+                        I&apos;m <span className="text-[#cf1b1b]">Mayur</span><br />
 
                     </div>
                     <span className="max-sm:text-[2rem] md:text-[2rem] lg:text-[3rem]  pl-[5rem] m-[0px]" ref={el} />
